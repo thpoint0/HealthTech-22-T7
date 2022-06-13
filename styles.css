@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Cooper Black";
+    src: url("/fonts/cooper-black.otf");
+}
+
+html {
+    background-color: #F1F6F8;
+}
+
+body {
+    background-color: #F1F6F8;
+}
+
+.app-heading {
+    background: #FCFDFD;
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.05);
+    border: 1px solid #F1F6F8;
+    border-radius: 0px 0px 24px 24px;
+    padding-top: 1.5em;
+    padding-bottom: 0.25em;
+}
+
+.app-heading p {
+    font-family: "Cooper Black", serif;
+    color: #5C6A65;
+    max-width: 5em;
+    font-size: 24px;
+}
+
+.app-heading img {
+    margin-left: 25%;
+    padding-bottom: 0.25em;
+}
+
+.card {
+    margin: 1em 0.25em;
+    border: 1px solid #F1F6F8;
+    border-radius: 24px;
+    background: #FCFDFD;
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.05);
+}
+
+.card-body{
+    padding: 0.5em 1em !important;
+}
+
+#dashboard-username {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 1em 0 0 1em;
+    color: #5C6A65;
+}
+
+.dashboard-table {
+    margin: 1em 0 0 1em;
+}
+
+.dashboard-table th {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    color: #6D7D74;
+}
+
+.dashboard-table td {
+    padding: 0.25em;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    color: #6D7D74;
+}
+
+.dashboard-card-title {
+    font-family: 'Cooper Black';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: 0.04em;
+    color: #5C6A65;
+}
+
+.dashboard-card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    color: #6D7D74;
+}
+
+.dashboard-card-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    color: #5C6A65;
+}
+
+.dashboard-card-innertitle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    color: #5C6A65;
+}
+
+.routine-container {
+    background-color: #F1F6F8;
+    padding: 0.5em;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #9AC6A1;
+    border-color: #9AC6A1;
+    border-radius: 15px !important;
+    min-width: 275px;
+    font-size: 120% !important;
+}
+
+.btn:focus {
+    background-color: #649c6e;
+}
+
+input {
+    background-color: #F1F6F8 !important;
+    font-size: 120% !important;
+    border: none;
+    border-radius: 25px !important;
+    resize: none;
+    outline: none;
+    margin-bottom: 2em;
+}
+
+input[type=range]::-webkit-slider-thumb{
+    background: #9AC6A1 !important;
+}
+
+input[type=range]{
+    background-color: #FCFDFD!important;
+    margin-bottom: 0;
+}
+
+/* Navbar Section */
+.navbar {
+    background: #ffffff;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    border-radius: 25px;
+}
+
+.navbar-container {
+    background: transparent;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    background-color: transparent;
+    padding: 5px;
+
+}
+
+.navbar-links {
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+    font-size: 0.8em;
+}
+
+.navbar-item {
+    padding: 1px 10px;
+    /* sus */
+    background-color: transparent;
+
+}
+
+.navbar-links:hover {
+    color: #9CBBC9;
+}
+
+nav th {
+    text-align: center;
+    padding: 0 1.5em;
+}
+
+nav td {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.active-link {
+    color: #9CBBC9;
+}
+
+/*End Navbar Section*/
